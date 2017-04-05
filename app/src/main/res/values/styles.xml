@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DatePickerCustome" />
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="colorControlNormal">@color/text_color</item>
+        <item name="colorControlActivated">@color/green</item>
+    </style>
+
+    <style name="CardView" parent="CardView.Light">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:textColor">#567890</item>
+    </style>
+
+    <style name="CustomDialogDate" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar.MinWidth">
+        <item name="android:textColor">#567890</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="TextColor">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#252525</item>
+    </style>
+
+    <style name="RadioButtonType">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#252525</item>
+    </style>
+
+    <style name="ButtonDialog">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/colorButtonTransparent</item>
+        <item name="android:textSize">@dimen/dialog_button_text_size</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="ButtonDialogUpdate">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/colorButtonTransparent</item>
+        <item name="android:textSize">@dimen/dialog_button_text_size</item>
+    </style>
+    <style name="NumberPickerDialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="ToolbarDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="ToolbarTextDialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_toolbar_dialog</item>
+    </style>
+
+    <style name="RadioButtonInDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/radio_button_dialog</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+</resources>

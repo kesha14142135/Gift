@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_number">Some number</string>
+    <string name="question">Выберите что вам нравится</string>
+    <string name="message_add">Пользователь успешно добавлен</string>
+    <string name="error_name">Пожалуйста введите имя</string>
+    <string name="button_ok">Да</string>
+    <string name="button_cancel">Закрыть</string>
+</resources>

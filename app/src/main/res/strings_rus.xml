@@ -1,0 +1,8 @@
+<resources>
+    <string name="birthday_rus">Ваш день рождение</string>
+    <string name="height_rus">Ваш рост</string>
+    <string name="shoe_size_rus">Ваш размер обуви</string>
+    <string name="volume_of_the_chest_rus">Ваш объем груди</string>
+    <string name="stomach_rus">Ваш объем живота</string>
+    <string name="hips_rus">Ваш объем бедер</string>
+</resources>

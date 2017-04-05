@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar style="@style/ToolbarDialog">
+
+        <TextView
+            style="@style/ToolbarTextDialog"
+            android:id="@+id/text_view_calendar_title"
+            android:text="@string/add_persone" />
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_text_person_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radio_button_girl"
+            style="@style/RadioButtonInDialog"
+            android:checked="true"
+            android:text="@string/girl_friend" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radio_button_mother"
+            style="@style/RadioButtonInDialog"
+            android:text="@string/mother" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radio_button_daughter"
+            style="@style/RadioButtonInDialog"
+            android:text="@string/daughter" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radio_button_grandfather"
+            style="@style/RadioButtonInDialog"
+            android:text="@string/grandfather" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radio_button_son"
+            style="@style/RadioButtonInDialog"
+            android:text="@string/son" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_button_top"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_cancel_person"
+            style="@style/ButtonDialog"
+            android:text="@string/cancel_birthday" />
+
+        <Button
+            android:id="@+id/button_add_person"
+            style="@style/ButtonDialog"
+            android:text="@string/add_birthday" />
+    </LinearLayout>
+</LinearLayout>

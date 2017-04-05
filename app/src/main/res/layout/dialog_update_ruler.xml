@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/text_view_dialog_ruler_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_number"
+            android:textColor="@color/white" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.tistory.dwfox.dwrulerviewlibrary.view.ScrollingValuePicker
+            android:id="@+id/scrolling_value_picker_update"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:layout_above="@+id/center"
+            android:background="#ec6464">
+        </com.tistory.dwfox.dwrulerviewlibrary.view.ScrollingValuePicker>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_button_top"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_cancel_update_ruler"
+            style="@style/ButtonDialogUpdate"
+            android:text="@string/cancel" />
+        <Button
+            android:id="@+id/button_add_update_ruler"
+            style="@style/ButtonDialogUpdate"
+            android:text="@string/add" />
+    </LinearLayout>
+
+</LinearLayout>

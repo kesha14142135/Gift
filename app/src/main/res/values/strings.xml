@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Gift</string>
+    <string name="title_name">Подарок</string>
+    <string name="name_girl">Девушка</string>
+    <string name="type_person">девушка</string>
+    <string name="day_person">5 дней</string>
+    <string name="name">Имя</string>
+    <string name="add_persone">Добавить человека</string>
+    <string name="girl_friend">Девушка</string>
+    <string name="mother">Мама</string>
+    <string name="daughter">Дочь</string>
+    <string name="grandfather">Папа</string>
+    <string name="son">Сын</string>
+    <string name="ok">Да</string>
+    <string name="Cancel">Закрыть</string>
+    <string name="lorem">Haill</string>
+    <string name="birthday">День рождения: 10.09.1994</string>
+    <string name="present">Подарок</string>
+
+    <string name="write_birthday">День рождение</string>
+    <string name="write_height">Рост</string>
+    <string name="write_shoe_size">Размер обуви</string>
+    <string name="write_volume_of_the_chest">Размер одежди</string>
+    <string name="write_stomach">Размер кольца</string>
+    <string name="write_hips">Размер одежды</string>
+
+    <string name="birthday_rus">День рождение</string>
+    <string name="height_rus">Рост</string>
+    <string name="shoe_size_rus">Размер обуви</string>
+    <string name="volume_of_the_chest_rus">Размер одежди</string>
+    <string name="stomach_rus">Размер кольца</string>
+    <string name="hips_rus">Размер одежды</string>
+
+    <string name="add_number">Some number</string>
+    <string name="question">Выберите что вам нравится</string>
+    <string name="message_add">Пользователь успешно добавлен</string>
+    <string name="error_name">Пожалуйста введите имя</string>
+    <string name="button_ok">Да</string>
+    <string name="button_cancel">Закрыть</string>
+    <string name="cm">см</string>
+    <string name="test">Тест</string>
+    <string name="question_test">Букет цветов</string>
+    <string name="text_view_question">Выберете что вам нравиться?</string>
+    <string name="like">Нравится</string>
+    <string name="dislike">Не нравится</string>
+    <string name="test_questin">Хотите продолжить тестирование?</string>
+    <string name="button_complite">Завершить тест</string>
+    <string name="yesterday">Завтра день рождение! У ...</string>
+    <string name="reminder">Напоминание</string>
+    <string name="today"> Сегодня ДР </string>
+    <string name="message">Завтра день рождение! Тебе желаю море счастья, Улыбок, солнца и тепла. Чтоб жизнь была еще прекрасней, Удача за руку вела!  Пусть в доме будет только радость, Уют, достаток и покой. Друзья, родные будут рядом, Беда обходит стороной!  Здоровья крепкого желаю И легких жизненных дорог. И пусть всегда, благословляя, Тебя хранит твой ангелок!</string>
+    <string name="answer_what_is_it">21</string>
+    <string name="add_birthday">Добавить</string>
+    <string name="cancel_birthday">Закрыть</string>
+    <string name="calendar">Календарь</string>
+    <string name="size">Размеры</string>
+    <string name="cancel">Закрыть</string>
+    <string name="person_dialog">person_dialog</string>
+    <string name="number_dialog">number_dialog</string>
+    <string name="calendar_dialog">calendar_dialog</string>
+    <string name="clothing_size">Размер одежди</string>
+    <string name="ring_size">Размер кольца</string>
+    <string name="shoe_size">Размер обуви</string>
+    <string name="height_size">Ваш рост</string>
+    <string name="error_birthday">Добавьте дату рождения</string>
+    <string name="next">Далее</string>
+    <string name="add">Добавить</string>
+    <string name="error_birthday_not_changed">День рождение не изменен</string>
+    <string name="error_not_fieled">Не которые поля не заполнены</string>
+    <string name="error_getting_data">Ошибка получения данных</string>
+    <string name="error_receive_data">Не удается получить данные из источника данных</string>
+    <string name="error_no_data">Нет данных по этому пользовтелю</string>
+    <string name="error_no_sizes">Нет размеров данного пользовтеля</string>
+    <string name="cloth">Закрыть</string>
+
+    <string-array name="size_of_clothes">
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>X</item>
+        <item>X</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
+    <string-array name="ring_sizes">
+        <item>15.5</item>
+        <item>16</item>
+        <item>16.5</item>
+        <item>17</item>
+        <item>17.5</item>
+        <item>18</item>
+        <item>18.5</item>
+        <item>19</item>
+        <item>19.5</item>
+        <item>20</item>
+        <item>20.5</item>
+        <item>21</item>
+        <item>21.5</item>
+        <item>22</item>
+    </string-array>
+    {"15.5", "16.5", "17", "18", "19", "20", "20.5", "21.5", "22"}
+    <plurals name="review_day_string">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дней</item>
+    </plurals>
+
+</resources>
